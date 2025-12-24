@@ -16,7 +16,7 @@ PROJECT_URL = os.environ.get("PROJECT_URL", "")  # 项目url
 AUTO_ACCESS = os.environ.get("AUTO_ACCESS", "false").lower() == "true"  # 保活
 FILE_PATH = os.environ.get("FILE_PATH", "./sub")  # 节点路径
 SUB_PATH = os.environ.get("SUB_PATH", "sub")  # 订阅token
-UUID = os.environ.get("UUID", "20e6e496-cf19-45c8-b883-14f5e11cd9f1")  # UUID
+UUID = os.environ.get("UUID", "153a4da7-4fd0-49f6-a6cb-17e63b93d04b")  # UUID
 NEZHA_SERVER = os.environ.get("NEZHA_SERVER", "")  # 哪吒面板域名
 NEZHA_PORT = os.environ.get("NEZHA_PORT", "")  # 哪吒端口
 NEZHA_KEY = os.environ.get("NEZHA_KEY", "")  # 哪吒密钥
